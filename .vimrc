@@ -33,7 +33,7 @@ nnoremap <C-p> :bp<CR>
 "------------python设置---------------------------------
 au BufNewFile,BufRead *.py 
             \ set textwidth=79
-""au BufRead,BufNewFile *.py, *.pyw, *.c, *.h, *.cpp, *.java match BadWhitespace /\s\+$/
+"au BufRead,BufNewFile *.py, *.pyw, *.c, *.h, *.cpp, *.java match BadWhitespace /\s\+$/
 let python_highlight_all=1
 "-------------------------------------------------------
 
